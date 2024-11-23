@@ -2,7 +2,7 @@ import curriculoPdf from '../../assets/WilintonGabriel.pdf';
 
 export default function Rodape() {
     return (
-        <footer className="fixed bottom-0 bg-red-500 w-full flex justify-center items-center flex-col p-4">
+        <footer className="bg-red-500 w-full flex justify-center items-center flex-col p-4">
             <div className="links">
                 <a href="#" className="m-2 font-medium hover:text-neutral-800 transition-all duration-300 ease-in-out">Início</a>
                 <a href="#" className="m-2 font-medium hover:text-neutral-800 transition-all duration-300 ease-in-out">Projetos</a>

@@ -1,3 +1,15 @@
-body {
+html, body, #root {
   background-color: #202020;
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa a altura total da tela */
+}
+
+.main-content {
+  flex: 1; /* Garante que este elemento expanda para ocupar o espaço restante */
 }
