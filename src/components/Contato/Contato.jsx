@@ -15,12 +15,10 @@ export default function Contato() {
         e.preventDefault();
         const { user_name, user_email, message } = formData;
 
-        // Monta o link mailto com os dados preenchidos
         const mailtoLink = `mailto:wilintongabrielss1@gmail.com?subject=${encodeURIComponent(user_email)}&body=${encodeURIComponent(
             `Nome: ${user_name}\n\nMensagem: ${message}`
         )}`;
         
-        // Redireciona o usuário para o link
         window.location.href = mailtoLink;
     };
 
