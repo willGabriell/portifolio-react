@@ -23,7 +23,7 @@ export default function Contato() {
     };
 
     return (
-        <div className="flex items-center justify-center">
+        <div id="contato" className="flex items-center justify-center">
             <div className="flex flex-col items-center justify-center p-6 bg-zinc-800 m-4 rounded-lg shadow-lg max-w-4xl w-full">
                 <h2 className="text-white font-bold text-3xl mb-4 text-center">Entre em Contato!</h2>
                 <form className="flex flex-col gap-4 w-full" onSubmit={handleSubmit}>

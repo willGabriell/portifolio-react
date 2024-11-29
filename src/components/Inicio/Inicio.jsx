@@ -2,7 +2,7 @@ import avatar from '../../assets/avatar.png'
 
 export default function Inicio() {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center m-5 p-4">
+        <div id="inicio" className="flex flex-col md:flex-row items-center justify-center m-5 p-4">
             <div className="w-96 h-96 mb-6 md:mb-0 md:mr-10 flex items-center justify-center bg-red-500 rounded-full">
                 <img src={avatar} alt="avatar" className="w-4/5 h-4/5 object-cover rounded-full" />
             </div>
