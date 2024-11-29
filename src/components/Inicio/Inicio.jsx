@@ -1,6 +1,6 @@
 export default function Inicio() {
     return (
-        <div className="flex md:flex-row flex-col items-center justify-center m-5 p-16">
+        <div className="flex md:flex-row flex-col items-center justify-center m-5 p-4">
             <div className="w-96 h-96 bg-blue-600 mr-20"></div>
 
             <div className="flex flex-col items-center justify-center max-w-lg p-5 m-12  text-white">
